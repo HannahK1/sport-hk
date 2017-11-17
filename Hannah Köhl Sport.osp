@@ -1,0 +1,271 @@
+{
+  "title": "Hannah Köhl Tanzschule Kiefersfelden",
+  "version": "0.3.11",
+  "plugins": {
+    "active": [
+      "ory-editor-plugins-slate",
+      "ory-editor-plugins-video",
+      "ory-editor-plugins-spacer",
+      "ory-editor-plugins-image"
+    ],
+    "fallback": "ory-editor-plugins-slate"
+  },
+  "baseUrl": "",
+  "design": {
+    "id": "ory-design-vipin",
+    "config": {
+      "ory-design-vipin": {
+        "headerTitle": "HK_BL_solo.png",
+        "themeColor": ""
+      }
+    }
+  },
+  "menus": {
+    "main": [
+      {
+        "id": "b14b38a2-528c-4d76-9947-fdfdb5b637c2",
+        "type": "URL",
+        "title": "Aktuelles",
+        "url": "#aktuelles",
+        "children": [],
+        "isDropIndicator": false
+      },
+      {
+        "id": "91f46725-886c-470c-bfc6-80c87aae3a05",
+        "type": "URL",
+        "title": "Konzept",
+        "url": "#konzept",
+        "children": [],
+        "isDropIndicator": false
+      },
+      {
+        "id": "ccdc2371-5b92-4ba4-976f-1f0105cb4515",
+        "type": "URL",
+        "title": "BGM / BGF",
+        "url": "#BGM/BGF",
+        "children": [],
+        "isDropIndicator": false
+      },
+      {
+        "id": "5d9aa900-9897-4616-a0d4-9cb8ebfc8516",
+        "type": "URL",
+        "title": "Angebot",
+        "url": "#angebot",
+        "children": []
+      },
+      {
+        "id": "d7f2eece-1ee9-4e48-9486-150ebad8a22e",
+        "type": "URL",
+        "title": "Team",
+        "url": "#Team",
+        "isDropIndicator": false,
+        "children": []
+      },
+      {
+        "id": "0463851f-e95d-4b9e-876b-5406d5f00a78",
+        "type": "URL",
+        "title": "Stundenplan",
+        "url": "#stundenplan",
+        "isDropIndicator": false,
+        "children": []
+      },
+      {
+        "id": "c0492edb-6d58-4017-b9b7-8b91652e7977",
+        "type": "URL",
+        "children": [],
+        "isDropIndicator": false,
+        "title": "Was ist Was?",
+        "url": "#wasistwas"
+      },
+      {
+        "id": "2e217541-5974-4aa2-b7d7-49ca69a37d54",
+        "type": "URL",
+        "title": "Anfahrt",
+        "url": "#anfahrt",
+        "isDropIndicator": false,
+        "children": []
+      },
+      {
+        "id": "9faf220d-ea82-42a6-9777-8b007892fec5",
+        "type": "URL",
+        "title": "Preise",
+        "url": "#preise",
+        "isDropIndicator": false,
+        "children": []
+      },
+      {
+        "id": "35dbb7ea-0a43-440f-8545-ab0d0d82edce",
+        "type": "URL",
+        "title": "Partner & Referenzen",
+        "url": "#partner-und-referenzen",
+        "isDropIndicator": false,
+        "children": []
+      },
+      {
+        "id": "20f4feb4-f71c-4bbf-b24e-a08143197a88",
+        "type": "URL",
+        "title": "Galerie",
+        "url": "#galerie",
+        "isDropIndicator": false,
+        "children": []
+      },
+      {
+        "id": "b2f716dd-239a-42ca-bdb2-cc7ef9120169",
+        "type": "URL",
+        "title": "Kontakt",
+        "url": "#kontakt",
+        "isDropIndicator": false,
+        "children": []
+      }
+    ],
+    "footer": [
+      {
+        "id": "b04d53cb-66fd-4bea-831e-88c6f85fe0f4",
+        "type": "PAGE",
+        "page": "7375cf93-e27e-4e1a-8150-48a55e0dbd7c",
+        "title": "AGB",
+        "children": []
+      },
+      {
+        "id": "65e3c7bd-303d-4977-afe8-8e9563eae69d",
+        "type": "PAGE",
+        "page": "7c4f922f-a012-42fb-8cde-766084961252",
+        "title": "Impressum",
+        "isDropIndicator": false
+      }
+    ]
+  },
+  "output": "dist",
+  "blocks": {
+    "footer": {
+      "id": "cf48713c-0c10-4ab2-832b-b3ea8dc0ba00",
+      "cells": [
+        {
+          "id": "c9325d81-0124-49e1-969d-18700e822ed7",
+          "inline": null,
+          "size": 12,
+          "rows": [
+            {
+              "id": "49f60411-d110-488d-a784-4040d4575cd2",
+              "cells": [
+                {
+                  "id": "19c0f803-6588-447e-b7e2-63c54d07f703",
+                  "inline": null,
+                  "size": 12,
+                  "layout": {
+                    "plugin": {
+                      "name": "ory/sites/plugin/layout/section",
+                      "version": "0.0.1"
+                    },
+                    "state": {
+                      "anchorName": "kontakt",
+                      "flavor": "grey-arrow"
+                    }
+                  },
+                  "rows": [
+                    {
+                      "id": "3d4ebac4-8cf9-4c4b-bafe-ecd7a1682940",
+                      "cells": [
+                        {
+                          "id": "27183b70-5d52-4e36-9422-4f438c9b1114",
+                          "inline": null,
+                          "size": 12,
+                          "content": {
+                            "plugin": {
+                              "name": "ory/editor/core/content/slate",
+                              "version": "0.0.1"
+                            },
+                            "state": {
+                              "serialized": {
+                                "nodes": [
+                                  {
+                                    "kind": "block",
+                                    "type": "HEADINGS/HEADING-TWO",
+                                    "nodes": [
+                                      {
+                                        "kind": "text",
+                                        "text": "Kontakt"
+                                      }
+                                    ],
+                                    "data": {
+                                      "align": "center"
+                                    }
+                                  },
+                                  {
+                                    "kind": "block",
+                                    "type": "PARAGRAPH/PARAGRAPH",
+                                    "nodes": [
+                                      {
+                                        "kind": "text",
+                                        "text": "Hannah Köhl\r\nBreitenau 8\r\n83088 Kiefersfelden\r"
+                                      }
+                                    ],
+                                    "data": {
+                                      "align": "center"
+                                    }
+                                  },
+                                  {
+                                    "kind": "block",
+                                    "type": "PARAGRAPH/PARAGRAPH",
+                                    "nodes": [
+                                      {
+                                        "kind": "text",
+                                        "text": "Tel.: "
+                                      },
+                                      {
+                                        "kind": "inline",
+                                        "type": "LINK/LINK",
+                                        "nodes": [
+                                          {
+                                            "kind": "text",
+                                            "text": "+49 176 38088346"
+                                          }
+                                        ],
+                                        "data": {
+                                          "href": "tel:+49 176 38088346   "
+                                        }
+                                      },
+                                      {
+                                        "kind": "text",
+                                        "text": "\r\nEmail: "
+                                      },
+                                      {
+                                        "kind": "inline",
+                                        "type": "LINK/LINK",
+                                        "nodes": [
+                                          {
+                                            "kind": "text",
+                                            "text": "info@hannah-sport.de"
+                                          }
+                                        ],
+                                        "data": {
+                                          "href": "mailto:info@hannah-sport.de"
+                                        }
+                                      },
+                                      {
+                                        "kind": "text",
+                                        "text": ""
+                                      }
+                                    ],
+                                    "data": {
+                                      "align": "center"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": "50b862dc-38b4-4d5e-ba8b-50411086ca2c"
+}
